@@ -26,3 +26,12 @@ yc compute instance create
 --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4  \
 --metadata-from-file user-data=startup.yaml  \
 --metadata serial-port-enable=1
+
+
+=====================================TErraform-1===========================================
+1. Определена переменная приватного ключа;
+2. Определена и имеет значение по умолчанию переменна зоны размещения;
+3. Конфигурационные файлы отформатированы terraform fmt;
+4. Подготовлен файл  terraform.tfvars.example с ключами пользователя ubuntu;
+5. Создан файл lb.tf для создания балансировщика, при помощи параметра count создаётся две машины и добавляются в балансировщик.
+
