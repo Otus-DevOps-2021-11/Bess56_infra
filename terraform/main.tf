@@ -8,7 +8,7 @@ provider "yandex" {
 
 
 resource "yandex_compute_instance" "app" {
-  count                     = 2
+  count                     = var.count
   name                      = "reddit-app${count.index}"
   allow_stopping_for_update = true
   metadata = {
