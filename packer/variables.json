@@ -1,0 +1,7 @@
+{
+  "folder_id": "b1gqn5mrm5qle1k6kq72",
+  "source_image_family": "ubuntu-1604-lts",
+  "service_account_key_file": "/home/bess/packer-key.json",
+  "disk_name": "db-packer-image",
+  "disk_size_gb": "11"
+}
